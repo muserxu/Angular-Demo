@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todolist';
+  name = 'Leon';
+
+  constructor(){
+    // run at start of modular
+    this.changeName('John');
+
+  }
+
+  changeName(name:string){
+    this.name = name;
+  }
 }

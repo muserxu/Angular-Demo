@@ -6,7 +6,7 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { environment } from '../environments/environment';
+import { environment } from '../environments/environment.prod';
 import { ItemsComponent } from './components/items/items.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddItemComponent } from './components/add-item/add-item.component';
